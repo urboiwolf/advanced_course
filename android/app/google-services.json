@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "183495912021",
+    "project_id": "advansed-course",
+    "storage_bucket": "advansed-course.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183495912021:android:896586f0cda807272f02dc",
+        "android_client_info": {
+          "package_name": "com.example.advanced_course"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkKkU2XsiNyApXhpGQDlGYvLjDLQaWgRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
