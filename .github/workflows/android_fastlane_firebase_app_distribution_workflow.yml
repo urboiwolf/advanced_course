@@ -1,4 +1,4 @@
-name: Android Fastlane with Firebase App Distribution Workflow 2
+name: Android Fastlane with Firebase App Distribution Workflow 3
 
 on:
   push:
