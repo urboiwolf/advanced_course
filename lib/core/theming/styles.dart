@@ -3,7 +3,7 @@ import 'package:advanced_course/core/theming/font_wight_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class TextStyles {
+class AppTextStyles {
   static TextStyle font24BlackBold = TextStyle(
       fontSize: 24.sp, fontWeight: AppFonts.bold, color: Colors.black);
 
@@ -25,10 +25,12 @@ class TextStyles {
       fontSize: 13.sp, fontWeight: AppFonts.semibold, color: AppColor.mainBlue);
   //
   static TextStyle font13BlackRegular = TextStyle(
-      fontSize: 13.sp, fontWeight: AppFonts.regular, color: AppColor.DarkBlue);
+      fontSize: 13.sp, fontWeight: AppFonts.regular, color: AppColor.darkBlue);
   //
   static TextStyle font13BlueRegular = TextStyle(
       fontSize: 13.sp, fontWeight: AppFonts.regular, color: AppColor.mainBlue);
+  static TextStyle font12BlueRegular = TextStyle(
+      fontSize: 12.sp, fontWeight: AppFonts.regular, color: AppColor.mainBlue);
   //
   static TextStyle font14GreyRegular = TextStyle(
       fontSize: 14.sp, fontWeight: AppFonts.regular, color: AppColor.grey);
@@ -40,10 +42,16 @@ class TextStyles {
       fontSize: 14.sp, fontWeight: AppFonts.semibold, color: AppColor.mainBlue);
   //
   static TextStyle font14DarkBlueMedium = TextStyle(
-      fontSize: 14.sp, fontWeight: AppFonts.medium, color: AppColor.DarkBlue);
+      fontSize: 14.sp, fontWeight: AppFonts.medium, color: AppColor.darkBlue);
   //
   static TextStyle font15DarkBlueMedium = TextStyle(
-      fontSize: 15.sp, fontWeight: AppFonts.medium, color: AppColor.DarkBlue);
+      fontSize: 15.sp, fontWeight: AppFonts.medium, color: AppColor.darkBlue);
+  //
+  static TextStyle font18WhiteMedium = TextStyle(
+      fontSize: 18.sp, fontWeight: AppFonts.medium, color: AppColor.white);
+  //
+  static TextStyle font18DarkBlueSemiBold = TextStyle(
+      fontSize: 18.sp, fontWeight: AppFonts.semibold, color: AppColor.darkBlue);
 
   ///
   static TextStyle font16WithSemiBold = TextStyle(
@@ -52,7 +60,23 @@ class TextStyles {
   static TextStyle font13DarkBlueRegular = TextStyle(
     fontSize: 13.sp,
     fontWeight: AppFonts.regular,
-    color: AppColor.DarkBlue,
+    color: AppColor.darkBlue,
+  );
+  static TextStyle font18DarkBlueBold = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: AppFonts.bold,
+    color: AppColor.darkBlue,
+  );
+  //
+  static TextStyle font16DarkBlueBold = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: AppFonts.bold,
+    color: AppColor.darkBlue,
+  );
+  static TextStyle font12Greyemedium = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: AppFonts.medium,
+    color: AppColor.grey,
   );
 
   ///

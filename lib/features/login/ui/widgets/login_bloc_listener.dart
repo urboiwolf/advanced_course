@@ -50,7 +50,7 @@ void setupErrorState(BuildContext context, String error) {
       ),
       content: Text(
         error,
-        style: TextStyles.font15DarkBlueMedium,
+        style: AppTextStyles.font15DarkBlueMedium,
       ),
       actions: [
         TextButton(
@@ -59,7 +59,7 @@ void setupErrorState(BuildContext context, String error) {
           },
           child: Text(
             'Got it',
-            style: TextStyles.font14BlueSimiBold,
+            style: AppTextStyles.font14BlueSimiBold,
           ),
         ),
       ],

@@ -38,13 +38,13 @@ class AppTextFormField extends StatelessWidget {
         return validator(value);
       },
       obscureText: isObscure ?? false,
-      style: TextStyles.font14DarkBlueMedium,
+      style: AppTextStyles.font14DarkBlueMedium,
       decoration: InputDecoration(
         filled: true,
         fillColor: backGroungcolor ?? AppColor.moreligthGray,
         hintText: hint,
         suffixIcon: suffixIcon,
-        helperStyle: hintStyle ?? TextStyles.font14LightGreyRegular,
+        helperStyle: hintStyle ?? AppTextStyles.font14LightGreyRegular,
         isDense: true,
         contentPadding: contentPadding ??
             EdgeInsets.symmetric(horizontal: 20.w, vertical: 18.h),
