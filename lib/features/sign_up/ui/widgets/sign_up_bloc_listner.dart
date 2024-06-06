@@ -85,7 +85,7 @@ class SignupBlocListener extends StatelessWidget {
         ),
         content: Text(
           error,
-          style: TextStyles.font15DarkBlueMedium,
+          style: AppTextStyles.font15DarkBlueMedium,
         ),
         actions: [
           TextButton(
@@ -94,7 +94,7 @@ class SignupBlocListener extends StatelessWidget {
             },
             child: Text(
               'Got it',
-              style: TextStyles.font14BlueSimiBold,
+              style: AppTextStyles.font14BlueSimiBold,
             ),
           ),
         ],

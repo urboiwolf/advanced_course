@@ -12,16 +12,17 @@ class TermsAndCondtionText extends StatelessWidget {
         children: [
           TextSpan(
             text: 'By logging, you agree to our ',
-            style: TextStyles.font13GreyRegular,
+            style: AppTextStyles.font13GreyRegular,
           ),
           TextSpan(
               text: 'Terms & Conditions',
-              style: TextStyles.font14DarkBlueMedium),
+              style: AppTextStyles.font14DarkBlueMedium),
           TextSpan(
               text: ' and ',
-              style: TextStyles.font13GreyRegular.copyWith(height: 1.5)),
+              style: AppTextStyles.font13GreyRegular.copyWith(height: 1.5)),
           TextSpan(
-              text: 'PrivacyPolicy.', style: TextStyles.font14DarkBlueMedium),
+              text: 'PrivacyPolicy.',
+              style: AppTextStyles.font14DarkBlueMedium),
         ],
       ),
     );

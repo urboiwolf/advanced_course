@@ -28,12 +28,12 @@ class LoginScreen extends StatelessWidget {
             children: [
               Text(
                 "Welcome Back",
-                style: TextStyles.font24BlueBold,
+                style: AppTextStyles.font24BlueBold,
               ),
               verticalSpace(8),
               Text(
                 'We\'re excited to have you back, can\'t wait to see what you\'ve been up to since you last logged in.',
-                style: TextStyles.font14GreyRegular,
+                style: AppTextStyles.font14GreyRegular,
               ),
               verticalSpace(36),
               Column(
@@ -44,13 +44,13 @@ class LoginScreen extends StatelessWidget {
                     alignment: AlignmentDirectional.centerEnd,
                     child: Text(
                       'Forget Password',
-                      style: TextStyles.font13BlueRegular,
+                      style: AppTextStyles.font13BlueRegular,
                     ),
                   ),
                   verticalSpace(40),
                   AppTextButton(
                     buttonText: "Login",
-                    textStyle: TextStyles.font16WithSemiBold,
+                    textStyle: AppTextStyles.font16WithSemiBold,
                     onPressed: () {
                       validateThenLogin(context);
                     },

@@ -27,24 +27,24 @@ class _EmailANdPasswordState extends State<EmailANdPassword> {
   late TextEditingController passwordController;
 
   @override
-  void initState() {
-    super.initState();
-    passwordController = context.read<LoginCubit>().passwordController;
-    setUpPAsswordControllerListner();
-  }
+  // void initState() {
+  //   super.initState();
+  //   passwordController = context.read<LoginCubit>().passwordController;
+  //   setUpPAsswordControllerListner();
+  // }
 
-  void setUpPAsswordControllerListner() {
-    passwordController.addListener(() {
-      setState(() {
-        hasLowerCase = AppRegex.hasLowerCase(passwordController.text);
-        hasMinwidthCase = AppRegex.hasMinLength(passwordController.text);
-        hasUpperCase = AppRegex.hasUpperCase(passwordController.text);
-        hasNumbers = AppRegex.hasNumber(passwordController.text);
-        hasSpecialCharacters =
-            AppRegex.hasSpecialCharacter(passwordController.text);
-      });
-    });
-  }
+  // void setUpPAsswordControllerListner() {
+  //   passwordController.addListener(() {
+  //     setState(() {
+  //       hasLowerCase = AppRegex.hasLowerCase(passwordController.text);
+  //       hasMinwidthCase = AppRegex.hasMinLength(passwordController.text);
+  //       hasUpperCase = AppRegex.hasUpperCase(passwordController.text);
+  //       hasNumbers = AppRegex.hasNumber(passwordController.text);
+  //       hasSpecialCharacters =
+  //           AppRegex.hasSpecialCharacter(passwordController.text);
+  //     });
+  //   });
+  // }
 
   @override
   Widget build(BuildContext context) {
