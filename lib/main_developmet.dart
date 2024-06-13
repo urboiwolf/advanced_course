@@ -4,7 +4,6 @@ import 'package:advanced_course/core/helpers/extentions.dart';
 import 'package:advanced_course/core/helpers/shared_pref.dart';
 import 'package:advanced_course/core/routing/app_routes.dart';
 import 'package:advanced_course/doc_app.dart';
-import 'package:advanced_course/main_production.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
