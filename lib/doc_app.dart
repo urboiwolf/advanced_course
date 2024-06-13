@@ -22,6 +22,7 @@ class DocApp extends StatelessWidget {
         ),
         initialRoute: isLoggedInUser ? Routes.homeScreen : Routes.loginScreen,
         onGenerateRoute: appRouter.generateRoute,
+      //
       ),
     );
   }
