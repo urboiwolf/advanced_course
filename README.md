@@ -1,16 +1,12 @@
 # advanced_course
+This project was built with best practices using Flutter & Dart
 
-A new Flutter project.
+-SignIn-Screen
 
-## Getting Started
+![login](https://github.com/urboiwolf/advanced_course/assets/115151453/cb21a555-794b-49e0-b491-a01f0ba5a0d4)
 
-This project is a starting point for a Flutter application.
+-SignUp-Screen
 
-A few resources to get you started if this is your first Flutter project:
+![register](https://github.com/urboiwolf/advanced_course/assets/115151453/c0b18770-4c39-47d1-88da-4ca926bf2bf0)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
